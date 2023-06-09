@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header,
+main,
+footer {
+  border: 1px solid black;
+} */
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  position: relative;
+}
+
+header {
+  padding: 40px;
+}
+
+main,
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  width: 300px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+article > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+article > p {
+  width: 260px;
+  margin-top: 20px;
+}
+
+article > p,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+button {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  color: hsl(257, 40%, 49%);
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100px;
+  padding-bottom: 50px;
+}
+
+.social-icons {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 8px;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+}
+
+.social-icons:hover {
+  filter: invert(65%) sepia(54%) saturate(1346%) hue-rotate(241deg)
+    brightness(103%) contrast(82%);
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    background: url("/images/bg-desktop.svg") hsl(257, 40%, 49%) no-repeat
+      center;
+  }
+  header {
+    padding-left: 200px;
+  }
+  header > img {
+    height: 40px;
+  }
+  main {
+    flex-direction: row;
+  }
+  main > img {
+    height: 400px;
+  }
+  article {
+    margin: 0 50px;
+    align-items: flex-start;
+  }
+  article > h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  article > p {
+    font-size: 14px;
+  }
+
+  article > h1,
+  article > p {
+    text-align: left;
+    width: 400px;
+  }
+  footer {
+    height: 50px;
+    justify-content: end;
+    padding: 0 120px;
+  }
+}
