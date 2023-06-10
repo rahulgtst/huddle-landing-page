@@ -11,7 +11,7 @@ footer {
 
 body {
   background-color: hsl(257, 40%, 49%);
-  background-image: url("/images/bg-mobile.svg");
+  background-image: url("images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -94,8 +94,7 @@ footer {
 
 @media screen and (min-width: 720px) {
   body {
-    background: url("/images/bg-desktop.svg") hsl(257, 40%, 49%) no-repeat
-      center;
+    background: url("images/bg-desktop.svg") hsl(257, 40%, 49%) no-repeat center;
   }
   header {
     padding-left: 200px;
