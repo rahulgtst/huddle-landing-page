@@ -7,7 +7,7 @@
 ### Links
 
 - Solution URL: [GitHub](https://github.com/rahulgtst/huddle-landing-page)
-- Live Site URL: [Live](rahulgtst.github.io/huddle-landing-page/)
+- Live Site URL: [Live](https://rahulgtst.github.io/huddle-landing-page/)
 
 ## My process
 
